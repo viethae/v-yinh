@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200">
+  <rect width="900" height="1200" fill="#f2f0ed"/>
+  <path d="M330 270h240l70 120-85 70v470H345V460l-85-70z" fill="#ded9d4"/>
+  <path d="M390 270c0 62 30 100 60 100s60-38 60-100" fill="none" stroke="#c8c1ba" stroke-width="18"/>
+  <text x="450" y="1050" text-anchor="middle" font-family="Arial,sans-serif" font-size="38" fill="#777">ÁO XINH</text>
+</svg>

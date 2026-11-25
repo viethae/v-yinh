@@ -1,0 +1,32 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "vayxinh-api",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-08-04",
+  "compatibility_flags": ["nodejs_compat"],
+  "define": {
+    "process.versions.node": "undefined"
+  },
+  "workers_dev": true,
+  "vars": {
+    "FRONTEND_URL": "https://vayxinh.pages.dev",
+    "JWT_EXPIRES_IN": "7d"
+  },
+"d1_databases": [
+  {
+    "binding": "DB",
+    "database_name": "vayxinh-production",
+    "database_id": "9a76a581-f7d9-4e5c-99ea-358a28360260",
+    "migrations_dir": "migrations"
+  }
+],
+  "r2_buckets": [
+    {
+      "binding": "IMAGES",
+      "bucket_name": "vayxinh-images"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  }
+}
